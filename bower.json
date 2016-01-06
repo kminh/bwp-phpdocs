@@ -1,0 +1,15 @@
+{
+  "name": "BWP phpdocs",
+  "authors": [
+    "Khang Minh <kminhfoss@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "http://betterwp.net",
+  "private": true,
+  "dependencies": {
+    "liquidmetal": "~1.3.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "bwp/phpdocs",
+    "homepage": "http://betterwp.net",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Khang Minh",
+            "email": "contact@betterwp.net"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/kminh/phpDocumentor2"
+        }
+    ],
+    "require": {
+        "phpdocumentor/phpdocumentor": "2.8.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "bin": [
+        "bin/phpdoc"
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
